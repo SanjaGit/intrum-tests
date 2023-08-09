@@ -1,0 +1,95 @@
+items:
+  # Info bar
+  info-bar:
+    xpath: //div[@class='information-bar-text']/b
+    text: Intrum aiziet no Baltijas tirgus. Aktiva Finance Group nopērk Baltijas uzņēmumus
+  info-bar-msg:
+    xpath: //div[@class='information-bar-text']/p/a
+    text: Vairāk informācijas šeit >
+    link: https://www.intrum.lv/biznesa-risinajumi/par-intrum/zinas/raksti/informacija-medijiem-intrum-aiziet-no-baltijas-tirgus/
+  info-bar-close-btn:
+    xpath: //div[@class='information-bar-close-button clearfix']
+  # Top menu
+  top-menu:
+    xpath: //ul[@class='section-selector ribbon-links']//li
+    size: 2
+  top-menu-1:
+    xpath: //ul[@class='section-selector ribbon-links']//li[1]/a
+    text: Saistību pārvaldīšana
+    link: /saistibu-parvaldisana/
+  top-menu-2:
+    xpath: //ul[@class='section-selector ribbon-links']//li[2]/a
+    text: Biznesa risinājumi
+    link: /biznesa-risinajumi/
+  # Main menu
+  main-menu:
+    xpath: //img[@alt='Logo']
+    link: /icons/Intrum_Logo_RGB_Black.svg
+  menu-items:
+    xpath: //div[@class='menu-items']/ul/li
+    size: 4
+  menu-item-1:
+    xpath: //div[@class='menu-items']/ul/li[1]
+    text: Ja esat saņēmis vēstuli
+    link: /saistibu-parvaldisana/ja-esat-sanemis-vestuli/
+  menu-item-1-sub:
+    xpath: //div[@class='menu-items']/ul/li[1]/ul[@class='second-level-navigation']/li
+    size: 7
+  menu-item-1-sub-1:
+    xpath: //div[@class='menu-items']/ul/li[1]/ul[@class='second-level-navigation']/li[1]/a
+    text: Es vēlētos samaksāt
+    link: /saistibu-parvaldisana/ja-esat-sanemis-vestuli/es-veletos-samaksat/
+  menu-item-1-sub-2:
+    xpath: //div[@class='menu-items']/ul/li[1]/ul[@class='second-level-navigation']/li[2]/a
+    text: Pārbaudiet maksājuma statusu
+    link: /saistibu-parvaldisana/ja-esat-sanemis-vestuli/parbaudiet-maksajuma-statusu/
+  menu-item-1-sub-3:
+    xpath: //div[@class='menu-items']/ul/li[1]/ul[@class='second-level-navigation']/li[3]/a
+    text: Esmu jau samaksājis
+    link: /saistibu-parvaldisana/ja-esat-sanemis-vestuli/esmu-jau-samaksajis/
+  menu-item-1-sub-4:
+    xpath: //div[@class='menu-items']/ul/li[1]/ul[@class='second-level-navigation']/li[4]/a
+    text: Izveidot maksājumu plānu
+    link: /saistibu-parvaldisana/ja-esat-sanemis-vestuli/izveidot-maksajumu-planu/
+  menu-item-1-sub-5:
+    xpath: //div[@class='menu-items']/ul/li[1]/ul[@class='second-level-navigation']/li[5]/a
+    text: Kāds ir risinājums?
+    link: /saistibu-parvaldisana/ja-esat-sanemis-vestuli/kads-ir-risinajums/
+  menu-item-1-sub-6:
+    xpath: //div[@class='menu-items']/ul/li[1]/ul[@class='second-level-navigation']/li[6]/a
+    text: Prasības neatbilst realitātei
+    link: /saistibu-parvaldisana/ja-esat-sanemis-vestuli/prasibas-neatbilst-realitatei/
+  menu-item-1-sub-7:
+    xpath: //div[@class='menu-items']/ul/li[1]/ul[@class='second-level-navigation']/li[7]/a
+    text: Ar mani sazinājās tiesu izpildītājs
+    link: /saistibu-parvaldisana/ja-esat-sanemis-vestuli/ar-mani-sazinajas-tiesu-izpilditajs/
+  menu-item-2:
+    xpath: //div[@class='menu-items']/ul/li[2]
+    text: Padomi un ieteikumi
+    link: /saistibu-parvaldisana/padomi-un-ieteikumi/
+  menu-item-3:
+    xpath: //div[@class='menu-items']/ul/li[3]
+    text: Par Intrum
+    link: /saistibu-parvaldisana/par-intrum/
+  menu-item-3-sub:
+    xpath: //div[@class='menu-items']/ul/li[3]/ul[@class='second-level-navigation']/li
+    size: 1
+  menu-item-3-sub-1:
+    xpath: //div[@class='menu-items']/ul/li[3]/ul[@class='second-level-navigation']/li[1]/a
+    text: Mēs veicam uzņēmējdarbību 24 Eiropas valstīs
+    link: /saistibu-parvaldisana/par-intrum/mes-veicam-uznemejdarbibu-24-eiropas-valstis/
+  menu-item-4:
+    xpath: //div[@class='menu-items']/ul/li[4]
+    text: Sazinieties ar mums
+    link: /saistibu-parvaldisana/sazinieties-ar-mums/
+  search-bar:
+    xpath: //div[@class='search-container']//ul[@class='search-button search-toggle']
+  search-button:
+    xpath: //div[@class='search-bar-container visible']/div[@class='search-button']
+  search-input:
+    xpath: //div[@class='search-container']//ul[@class='search-button search-toggle']//input[@placeholder='Meklēt intrum.lv']
+  search-toggle:
+    xpath: //div[@class='search-container']//ul[@class='search-button search-toggle']//div[@class='search-toggle']
+  login-button:
+    xpath: //div[@class='search-container']//a[@class='button login-button customer']
+    text: Pieslēgties
